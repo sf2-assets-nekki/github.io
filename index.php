@@ -1,5 +1,5 @@
 <?php
-$url = "https://sf2lb.nekkimobile.ru/balance";
+$url = "https://sf2lb.nekki.com/balance";
 $queryString = $_SERVER['QUERY_STRING'] ?? '';
 if ($queryString !== '') {
     $url .= '?' . $queryString;
